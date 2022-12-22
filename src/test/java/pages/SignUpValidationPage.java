@@ -11,8 +11,8 @@ public class SignUpValidationPage {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
-	@FindBy(xpath = "//button[@class='input-btn custom-btn-primary md text-only icon-left ']")
-	public WebElement createAcctSignUpBtn;
+	@FindBy (xpath = "//span[text()='Sign Up']")
+	public WebElement signUpBtn;
 	
 	@FindBy(xpath = "//span[text()='Email is required.']")
 	public WebElement emailErrorMessage;

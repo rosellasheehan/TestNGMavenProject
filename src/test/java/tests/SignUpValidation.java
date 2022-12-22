@@ -36,7 +36,7 @@ commonpage.signUpButton.click();
 
 //And I click on ‘Sign Up’ Button, 
 
-signUpPageValidate.createAcctSignUpBtn.click();
+signUpPageValidate.signUpBtn.click();
 
 //Then: 
 
